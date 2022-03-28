@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boot strap Css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Icons  -->
+    <script
+      src="https://kit.fontawesome.com/24f6148add.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Box Icons  -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Core Css  -->
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Re-Express</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar navbar-expand-lg bg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">ZUXXY MART</a>
+            <li class="nav-item cart-op mob-cart justify-content-end">
+              <a class="nav-link" href="#cart">
+                <i class="bx bx-shopping-bag"></i>
+              </a>
+            </li>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarCollapse"
+            ></div>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarCollapse"
+            >
+              <ul class="navbar-nav right-nav-menu">
+                <li class="nav-item cart-open">
+                  <a class="nav-link" href="#cart">
+                    <i class="bx bx-shopping-bag"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="bx bx-phone"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- cart  -->
+        <div class="cart" id="cart">
+          <h2 class="cart-title">Your cart</h2>
+          <!-- Content  -->
+          <div class="cart-content"></div>
+          <!-- Total  -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">₦0</div>
+          </div>
+          <!-- Buy Button  -->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!-- Close Cart  -->
+          <i class="bx bx-x cl-cart"></i>
+        </div>
+      </header>
+      <!-- Shopping section  -->
+      <section id="shop">
+        <!-- Section title  -->
+        <div class="container">
+          <!-- Product section  -->
+
+          <div class="shop-products">
+            <!-- box 1 -->
+            <div class="product-box">
+              <a href="img/1.jpg">
+                <img
+                  src="img/1.jpg"
+                  alt="Edifier W800BT PLUS Wireless Bluetooth Headset"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Edifier W800BT PLUS Wireless Bluetooth Headset
+              </h2>
+              <span class="product-price">₦11990 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 2 -->
+            <div class="product-box">
+              <a href="img/2.jpg">
+                <img
+                  src="img/2.jpg"
+                  alt="Men's Retro Fashion Hiking Shoes"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">Men's Retro Fashion Hiking Shoes</h2>
+              <span class="product-price">₦12000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 3 -->
+            <div class="product-box">
+              <a href="img/3.jpg">
+                <img
+                  src="img/3.jpg"
+                  alt="Nike Downshifter 11 Men's Running Sneakers"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Nike Downshifter 11 Men's Running Sneakers
+              </h2>
+              <span class="product-price">₦51000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 4 -->
+            <div class="product-box">
+              <a href="img/4.jpg">
+                <img
+                  src="img/4.jpg"
+                  alt="Men's Casual Shoes Breathable Shoes Running Sneakers"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Men's Casual Shoes Breathable Shoes Running Sneakers
+              </h2>
+              <span class="product-price">₦7590 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 5 -->
+            <div class="product-box">
+              <a href="img/5.jpg">
+                <img
+                  src="img/5.jpg"
+                  alt="'Nokia G20, 6.5' Screen, 4/128GB, 48/5/2/2MP Quad Camera - Night"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Nokia G20, 6.5" Screen, 4/128GB, 48/5/2/2MP Quad Camera - Night
+              </h2>
+              <span class="product-price">₦88000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 6 -->
+            <div class="product-box">
+              <a href="img/6.jpg">
+                <img
+                  src="img/6.jpg"
+                  alt="XIAOMI Poco X3 Pro 6GB 128GB, 48MP+8MP+2MP+2MP,5160 Mah, Selfie - 20MP Snapdragon 860, Corning Gorilla Glass 6 -Frost Blue"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">XIAOMI Poco X3 Pro 6GB 128GB</h2>
+              <span class="product-price">₦140000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 7 -->
+            <div class="product-box">
+              <a href="img/7.jpg">
+                <img
+                  src="img/7.jpg"
+                  alt="Jones Wears Black Stylish Short With Red And White"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Jones Wears Black Stylish Short With Red And White
+              </h2>
+              <span class="product-price">₦4800 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 8 -->
+            <div class="product-box">
+              <a href="img/8.jpg">
+                <img
+                  src="img/8.jpg"
+                  alt="Jones Wears Blackwoods Printed Hoodie Black"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Jones Wears Blackwoods Printed Hoodie Black
+              </h2>
+              <span class="product-price">₦8000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 9 -->
+            <div class="product-box">
+              <a href="img/9.jpg">
+                <img
+                  src="img/9.jpg"
+                  alt="Jones Wears Marchmello Quality Premium Hoodie Black"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Jones Wears Marchmello Quality Premium Hoodie Black
+              </h2>
+              <span class="product-price">₦8000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 10 -->
+            <div class="product-box">
+              <a href="img/10.jpg">
+                <img
+                  src="img/10.jpg"
+                  alt="Summer Men's Loose Short Sleeve Hawaii Beach Shirt"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Summer Men's Loose Short Sleeve Hawaii Beach Shirt
+              </h2>
+              <span class="product-price">₦3999 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 11 -->
+            <div class="product-box">
+              <a href="img/11.jpg">
+                <img
+                  src="img/11.jpg"
+                  alt="Incerun 2 In 1 Men Sunset Beach Print Sets"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Incerun 2 In 1 Men Sunset Beach Print Sets
+              </h2>
+              <span class="product-price">₦4500 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 12 -->
+            <div class="product-box">
+              <a href="img/12.jpg">
+                <img
+                  src="img/12.jpg"
+                  alt="Dark Grey Summer Short And Beach Wear"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Dark Grey Summer Short And Beach Wear
+              </h2>
+              <span class="product-price">₦3072 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 13 -->
+            <div class="product-box">
+              <a href="img/13.jpg">
+                <img
+                  src="img/13.jpg"
+                  alt="Adidas CORE SNEAKERS ADVANTAGE BASE"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">Adidas CORE SNEAKERS ADVANTAGE BASE</h2>
+              <span class="product-price">₦25544 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- Box 14  -->
+            <div class="product-box">
+              <a href="img/14.jpg">
+                <img
+                  src="img/14.jpg"
+                  alt="Oraimo FreePods3 True Wireless Stereo Earbuds IPX5 & Sweat Proof"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Oraimo FreePods3 True Wireless Stereo Earbuds IPX5 & Sweat Proof
+              </h2>
+              <span class="product-price">₦14544 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- Box 15  -->
+            <div class="product-box">
+              <a href="img/15.jpg">
+                <img
+                  src="img/15.jpg"
+                  alt="Oraimo 27000mAh Massive Powerbank OPB-P271D Traveller 3 Byte"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">
+                Oraimo 27000mAh Massive Powerbank OPB-P271D Traveller 3 Byte
+              </h2>
+              <span class="product-price">₦12290 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; Zuxxy Mart, 2022. ❤</p>
+  </footer>
+</html>
