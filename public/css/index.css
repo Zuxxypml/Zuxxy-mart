@@ -1,5 +1,5 @@
 body{
-        font-family: 'Lato', sans-serif;
+       font-family: 'Montserrat', sans-serif;
          min-height: 75rem;
   padding-top: 4.5rem;
 
@@ -8,13 +8,13 @@ body{
     list-style-type: none;
 }
 h1{
-    font-family: 'Montserrat-black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 .navbar{
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
 }
 img{
     width: 100%;
