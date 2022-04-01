@@ -22,20 +22,21 @@ img{
     width: 100%;
 }
 .bg {
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: #000;
 }
 .navbar-brand, .navbar-brand:hover{
-    font-size: 2rem;
-    color: #fff;
+    font-size: 3rem;
+    color: #000;
+    letter-spacing: .2em;
 }
 .nav-link, .nav-link:focus{
-    color: #fff;
+    color: #000;
     font-size: 1.1rem;
 }
 .nav-link:hover, .nav-link:visited{
-    border-bottom: #fff 1px solid;
-    color: #fff;
+    border-bottom: #000 1px solid;
+    color: #000;
 }
 .active{
     color: #919098;
@@ -47,7 +48,7 @@ img{
 .navbar i{
     font-size: 2rem;
     padding: 2%;
-    color: #fff;
+    color: #000;
 }
 /* Cart  */
 .cart{
@@ -159,6 +160,46 @@ img{
     .mob-cart{
         display: block;
     }
+}
+@media screen and (max-width:764px){
+  .carousel-item  img{
+    border-radius: 20px;
+}
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+.bg {
+    background-color: white;
+    color: #000;
+}
+.navbar-brand, .navbar-brand:hover{
+    font-size: 1.5rem;
+    color: #000;
+    letter-spacing: 0;
+}
+.nav-link, .nav-link:focus{
+    color: #000;
+    font-size: 1.1rem;
+}
+.nav-link:hover, .nav-link:visited{
+    border-bottom: #000 1px solid;
+    color: #000;
+}
+.active{
+    color: #919098;
+
+}
+.navbar ul{
+    gap: 20px;
+}
+.navbar i{
+    font-size: 2rem;
+    padding: 2%;
+    color: #000;
+}
 }
 
 
