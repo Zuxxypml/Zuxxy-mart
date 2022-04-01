@@ -12,7 +12,9 @@ h1{
     font-size: 3rem;
     line-height: 1.5;
 }
-
+.carousel-item  img{
+    border-radius: 20px;
+}
 .navbar{
     font-family: 'Montserrat', sans-serif;
 }
